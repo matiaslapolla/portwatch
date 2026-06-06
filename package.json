@@ -37,7 +37,7 @@
 		"postbuild": "chmod +x dist/cli.js",
 		"dev": "tsc --watch",
 		"start": "node dist/cli.js",
-		"test": "node --test --import tsx \"source/**/*.test.ts\"",
+		"test": "node --test --import tsx $(find source -name '*.test.ts')",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
