@@ -1,0 +1,5 @@
+node_modules
+dist
+
+# Local Claude Code workspace (strategy notes, settings) — not for publishing
+.claude
