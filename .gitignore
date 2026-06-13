@@ -1,5 +1,7 @@
 node_modules
-dist
+
+# dist/ is committed so `npm i -g github:matiaslapolla/portwatch` works
+# without an install-time build step. Rebuild with `npm run build` before commit.
 
 # Local Claude Code workspace (strategy notes, settings) — not for publishing
 .claude
