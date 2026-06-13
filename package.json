@@ -38,7 +38,7 @@
 		"dev": "tsc --watch",
 		"start": "node dist/cli.js",
 		"test": "node --test --import tsx $(find source -name '*.test.ts')",
-		"prepublishOnly": "npm run build"
+		"prepare": "npm run build"
 	},
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.21.0",
